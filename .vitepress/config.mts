@@ -2,13 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "cyf blog",
-  description: "A VitePress Site",
+  title: 'CYF',
+  description: 'A VitePress Site',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Web', link: '/web/index.md' },
+      { text: 'About', link: '/about' },
+      { text: 'Examples', link: '/markdown-examples' },
     ],
 
     sidebar: [
@@ -16,13 +18,11 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+        ],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    socialLinks: [{ icon: 'github', link: 'https://github.com/BombCowpat' }],
+  },
 })
