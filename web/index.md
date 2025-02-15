@@ -33,7 +33,8 @@
 5. Fabric.js
 6. PixiJS
 7. Three.js
-8. Echarts
+8. Bavylon.js
+9. Echarts
 
 ### 测试工具
 1. Jest
